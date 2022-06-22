@@ -1,20 +1,181 @@
 <!DOCTYPE html>
-<html lang="en">
-    <head>
-        <title></title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="w3.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sophia">
-    </head>
+<html lang="en" class="html">
+
+<head>
+    <title> TAS Giant</title>
+    <base href="http://127.0.0.1:5500/index.html" target="_top">
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="TAS Giant">
+    <meta name="title" content="TAS Giant">
+
+
+    <link rel="stylesheet" href="w3.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="js" href="w3.js" />
+    <link rel="js" type="" href="">
+    <link rel="shortcut icon" href="TAS Giant.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="w3-theme-blue-grey.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+    <!--- Header --->
+    <header id="main_header">
+        <div class="w3-container w3-red w3-mobile">
+            <h1 id="webTitle" class="w3-center w3-mobile w3-bold">TAS Giant</h1>
+        </div>
+        <div class="w3-container w3-margin">
+            <img id="main_img" src="TAS_Giant_Benar.jpg" alt="TAS Giant">
+        </div>
+    </header>
+
+    <!--- Body --->
+
     <body>
-        <header>
-            <div class="w3-container w3-blue w3-center w3-margin">
-                <div class="w3-container w3-margin-right w3-margin-left w3-margin-top w3-red">
-                    <h1 class="w3-center">TAS Giant</h1>
+        <div class="w3-container w3-mobile">
+            <h1 class="w3-container w3-center w3-mobile container-title"> Home </h1>
+            <div class="w3-container w3-mobile w3-bar">
+                <div id="base-card" onClick="location.href='#'" class="w3-card w3-mobile w3-bar-item w3-button">
+                    <header class="w3-container">
+                        <h3>Search Over Web</h3>
+                    </header>
+                    <div class="w3-container">
+                        <i class="fa fa-search"></i>
+                    </div>
                 </div>
-                <h1 class="w3-center">The Tech Doctor</h1>
+                <div id="base-card" onClick="location.href='#'" class="w3-card w3-mobile w3-bar-item w3-button">
+                    <header class="w3-container">
+                        <h3>Contact Us</h3>
+                    </header>
+                    <div class="w3-container">
+                        <i class="fa fa-envelope"></i>
+                    </div>
+                </div>
+                <div id="base-card" onClick="location.href='#'" class="w3-card w3-mobile w3-bar-item w3-button">
+                    <header class="w3-container">
+                        <h3>About Us</h3>
+                    </header>
+                    <div class="w3-container">
+                        <i class="fa fa-address-card"></i>
+                    </div>
+                </div>
+                <div id="base-card" onClick="location.href='#'" class="w3-card w3-mobile w3-bar-item w3-button">
+                    <header class="w3-container">
+                        <h3>Privacy Policy</h3>
+                    </header>
+                    <div class="w3-container">
+                        <i class="fa fa-shield" aria-hidden="true"></i>
+                    </div>
+                </div>
+                <div id="base-card" onClick="location.href='#'" class="w3-card w3-mobile w3-bar-item w3-button">
+                    <header class="w3-container">
+                        <h3>Tarms and Service</h3>
+                    </header>
+                    <div class="w3-container">
+                        <i class="fa fa-book"></i>
+                    </div>
+                </div>
+                <div id="base-card" onClick="location.href='#'" class="w3-card w3-mobile w3-bar-item w3-button">
+                    <header class="w3-container">
+                        <h3>Contact Form</h3>
+                    </header>
+                    <div class="w3-container">
+                        <i class="fa fa-wpforms"></i>
+                    </div>
+                </div>
             </div>
-        </header>
+        </div>
+        <div class="w3-container w3-mobile">
+            <h1 class="w3-container w3-center w3-mobile container-title">Programming Language</h1>
+            <div class="w3-container w3-mobile w3-bar">
+                <div id="card" onClick="location.href='#'" class="w3-card w3-mobile w3-button w3-bar-item">
+                    <header class="w3-container">
+                        <h3>Python</h3>
+                    </header>
+                    <div class="w3-container">
+                        <img id="card-img" src="https://raw.githubusercontent.com/docker-library/docs/01c12653951b2fe592c1f93a13b4e289ada0e3a1/python/logo.png" alt="Python Programming Language Logo">
+                    </div>
+                    <footer class="w3-container">
+                        <h5>Popular Programming Language</h5>
+                    </footer>
+                </div>
+            </div>
+        </div>
+        <div class="w3-container w3-mobile">
+            <h1 class="w3-container w3-center w3-mobile container-title">Web Based Language</h1>
+            <div id="card" onClick="location.href='#'" class="w3-card w3-mobile w3-button w3-bar-item">
+                <header class="w3-container">
+                    <h3>HTML</h3>
+                </header>
+                <div class="w3-container">
+                    <img id="card-img" src="http://assets.stickpng.com/thumbs/5847f5bdcef1014c0b5e489c.png" alt="HTML Language Logo">
+                </div>
+                <footer class="w3-container">
+                    <h5>Hyper Text Markup Language</h5>
+                </footer>
+            </div>
+            <div id="card" onClick="location.href='#'" class="w3-card w3-mobile w3-button w3-bar-item">
+                <header class="w3-container">
+                    <h3>CSS</h3>
+                </header>
+                <div class="w3-container">
+                    <img id="card-img" src="https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png" alt="CSS Language Logo">
+                </div>
+                <footer class="w3-container">
+                    <h5>Cascadind style sheets</h5>
+                </footer>
+            </div>
+            <div id="card" onClick="location.href='#'" class="w3-card w3-mobile w3-button w3-bar-item">
+            <header class="w3-container">
+                <h3>MD</h3>
+            </header>
+            <div class="w3-container">
+                <img id="card-img" src="https://thumbs.dreamstime.com/b/simple-clean-crisp-creative-md-logo-icon-design-vector-format-170813699.jpg" alt="Markdown Language Logo">
+            </div>
+            <footer class="w3-container">
+                <h5>Markdown</h5>
+            </footer>
+            </div>
+        </div>
+        <div class="w3-container w3-mobile">
+            <h1 class="w3-container w3-center w3-mobile container-title">Programming Language For Database</h1>
+            <div id="card" onClick="location.href='#'" class="w3-card w3-mobile w3-button w3-bar-item">
+                <header class="w3-container">
+                    <h3>SQL</h3>
+                </header>
+                <div class="w3-container">
+                    <img id="card-img" src="https://www.tec-innova.mx/wp-content/uploads/2021/12/Imagen1.png" alt="">
+                </div>
+                <footer class="w3-container">
+                    <h5>Structured Query Language</h5>
+                </footer>
+            </div>
+            <div id="card" onClick="location.href='#'" class="w3-card w3-mobile w3-button w3-bar-item">
+                <header class="w3-container">
+                    <h3>SQLite</h3>
+                </header>
+                <div class="w3-container">
+                    <img id="card-img" src="data:image/jpeg;base64,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" alt="">
+                </div>
+                <footer class="w3-container">
+                    <h5>Lite Version Of SQL</h5>
+                </footer>
+            </div>
+        </div>
     </body>
+
+    <!--- Footer --->
+    <footer id="main_footer" class="w3-mobile">
+        <div class="w3-container w3-mobile">
+                <p class="text-left-align">Created By <a href='#' class="w3-button">TAS Giant</a></p>
+        </div>
+    </footer>
+</body>
+
 </html>

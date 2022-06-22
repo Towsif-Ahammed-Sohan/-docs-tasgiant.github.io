@@ -1,0 +1,54 @@
+/* body style */
+body {
+    border: 3px solid lightgrey;
+}
+
+
+#main_footer {
+    color: white;
+    background-color: red;
+    padding: 1%;
+}
+
+/* title style */
+
+.container-title {
+    color: white;
+    background-color: red;
+}
+
+#webTitle {
+    font-family: 'Sofia', cursive;
+    font-size: 100px;
+    background-color: red;
+    color: white;
+}
+
+/* card style */
+
+#base-card {
+    width: 32.3%;
+    color: white!important;
+    background-color:red!important;
+    margin: 3px;
+}
+
+#card {
+    width: 32%;
+    color: white!important;
+    background-color:red!important;
+    margin: 2px;
+}
+#card:hover, #base-card:hover {
+    box-shadow: 0 0 30px red;
+}
+/* img style */
+
+#main_img {
+    width: 100%;
+}
+
+#card-img {
+    max-height: 100px;
+    max-height: 100px;
+}
