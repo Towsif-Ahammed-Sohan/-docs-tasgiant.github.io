@@ -1,13 +1,17 @@
 /* body style */
 body {
-    border: 3px solid lightgrey;
+    border: .5vw solid lightgrey;
 }
 
 
 #main_footer {
     color: white;
     background-color: red;
-    padding: 1%;
+    border: 10px;
+}
+
+form {
+    color: red;
 }
 
 /* title style */
@@ -21,25 +25,39 @@ body {
     font-family: 'Sofia', cursive;
     background-color: red;
     color: white;
+    font-size: 10vw;
 }
 
 /* card style */
 
 #base-card {
-    width: 32.3%;
+    min-width: 45vw;
     color: white!important;
     background-color:red!important;
     margin: 3px;
 }
 
 #card {
-    width: 32%;
+    min-width: 32%;
     color: white!important;
     background-color:red!important;
-    margin: 2px;
+    margin: 0.5vw;
 }
-#card:hover, #base-card:hover {
-    box-shadow: 0 0 30px red;
+#card:hover{
+    box-shadow: 0 0 2vw gray;
+}
+#base-card:hover {
+    box-shadow: 0 0 0.5vw gray;
+}
+
+#contact-card {
+    min-width: 50%;
+    margin: 3px;
+    color: white;
+    background-color: red;
+}
+#contact-card:hover{
+    box-shadow: 0 0 1 grey;
 }
 /* img style */
 
@@ -48,6 +66,5 @@ body {
 }
 
 #card-img {
-    max-height: 50px;
-    max-height: 50px;
+    max-height: 10vh;
 }
